@@ -1,0 +1,137 @@
+{
+    "modules": [{
+            "id": "269c3064-ab5e-4e3f-bdcf-8e17082af586",
+            "type": "PlayPrompt",
+            "branches": [{
+                "condition": "Success",
+                "transition": "299484b0-c7bb-4e93-9e6f-d3bbc271af12"
+            }],
+            "parameters": [{
+                    "name": "Text",
+                    "value": "This didn't work",
+                    "namespace": null
+                },
+                {
+                    "name": "TextToSpeechType",
+                    "value": "text"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 427,
+                    "y": 373
+                },
+                "useDynamic": false
+            }
+        },
+        {
+            "id": "760a76b0-e6cf-4eb3-b212-10c4a0efd346",
+            "type": "Transfer",
+            "branches": [{
+                "condition": "Error",
+                "transition": "299484b0-c7bb-4e93-9e6f-d3bbc271af12"
+            }],
+            "parameters": [{
+                "name": "ContactFlowId",
+                "value": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/34e3afad-8405-4860-bdeb-fcf69f92e66f",
+                "resourceName": "DoctorInHours"
+            }],
+            "metadata": {
+                "position": {
+                    "x": 428,
+                    "y": 23
+                },
+                "useDynamic": false,
+                "ContactFlow": {
+                    "id": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/34e3afad-8405-4860-bdeb-fcf69f92e66f",
+                    "text": "DoctorInHours"
+                }
+            },
+            "target": "Flow"
+        },
+        {
+            "id": "299484b0-c7bb-4e93-9e6f-d3bbc271af12",
+            "type": "Disconnect",
+            "branches": [],
+            "parameters": [],
+            "metadata": {
+                "position": {
+                    "x": 748,
+                    "y": 273
+                }
+            }
+        },
+        {
+            "id": "365138e7-6a8e-4ced-9cfa-8e08af8d5777",
+            "type": "CheckHoursOfOperation",
+            "branches": [{
+                    "condition": "True",
+                    "transition": "760a76b0-e6cf-4eb3-b212-10c4a0efd346"
+                },
+                {
+                    "condition": "False",
+                    "transition": "8b0a9fcf-bab6-4720-ab85-4f283fec2dbd"
+                },
+                {
+                    "condition": "Error",
+                    "transition": "269c3064-ab5e-4e3f-bdcf-8e17082af586"
+                }
+            ],
+            "parameters": [{
+                "name": "Hours",
+                "value": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/operating-hours/85ec4004-5bf9-47c8-8233-8cd6952f5ee3",
+                "resourceName": "DoctorOfficeHours"
+            }],
+            "metadata": {
+                "position": {
+                    "x": 143,
+                    "y": 19
+                },
+                "Hours": {
+                    "id": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/operating-hours/85ec4004-5bf9-47c8-8233-8cd6952f5ee3",
+                    "text": "DoctorOfficeHours"
+                }
+            }
+        },
+        {
+            "id": "8b0a9fcf-bab6-4720-ab85-4f283fec2dbd",
+            "type": "Transfer",
+            "branches": [{
+                "condition": "Error",
+                "transition": "299484b0-c7bb-4e93-9e6f-d3bbc271af12"
+            }],
+            "parameters": [{
+                "name": "ContactFlowId",
+                "value": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/3e415a3a-e761-4408-aee4-cd6383d50c5d",
+                "resourceName": "DoctorOutOfHours"
+            }],
+            "metadata": {
+                "position": {
+                    "x": 427,
+                    "y": 189
+                },
+                "useDynamic": false,
+                "ContactFlow": {
+                    "id": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/3e415a3a-e761-4408-aee4-cd6383d50c5d",
+                    "text": "DoctorOutOfHours"
+                }
+            },
+            "target": "Flow"
+        }
+    ],
+    "version": "1",
+    "type": "contactFlow",
+    "start": "365138e7-6a8e-4ced-9cfa-8e08af8d5777",
+    "metadata": {
+        "entryPointPosition": {
+            "x": 15,
+            "y": 20
+        },
+        "snapToGrid": false,
+        "name": "DoctorOffice",
+        "description": null,
+        "type": "contactFlow",
+        "status": "published",
+        "hash": "1cd47f7a934e7887b8e95e6d73c86a2c59e281863926777a7ae989bdf77125ac"
+    }
+}

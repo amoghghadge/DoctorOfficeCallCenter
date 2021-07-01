@@ -1,0 +1,626 @@
+{
+    "modules": [
+        {
+            "id": "b2f0b10a-09ab-41e3-81d7-acef4da2d8c6",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-481-4896"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 973.236083984375,
+                    "y": 0
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "ad97b934-c319-4ef9-b453-c7364966d88a",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-481-4785"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 974,
+                    "y": 145
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "fddea8f7-8ae5-47f1-84ff-7a930fd8df4b",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-481-4237"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 974,
+                    "y": 291
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "567cde3c-e520-4712-8b65-17b0f1dcc4d1",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-481-4797"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 978,
+                    "y": 444
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "dfca70bc-f538-4113-8ba5-df84acdc767d",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-481-4963"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 978,
+                    "y": 594
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "0c2a4f0f-6916-49ad-80e1-a838a561a731",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1703-746-8690"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 511,
+                    "y": 0
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "8dda3b84-fd7d-473d-8bf0-521eeb897e58",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-481-4498"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 511.7499694824219,
+                    "y": 159.84999084472656
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "f43dfcc0-fe05-4f02-a978-a88842d03d8b",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1703-971-3252"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 515.199951171875,
+                    "y": 317.3999938964844
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "f354aeb2-a60e-4f03-bc3b-6ad8e978dbba",
+            "type": "DistributeByPercentage",
+            "branches": [
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "20",
+                    "transition": "dfca70bc-f538-4113-8ba5-df84acdc767d"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "20",
+                    "transition": "b2f0b10a-09ab-41e3-81d7-acef4da2d8c6"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "20",
+                    "transition": "ad97b934-c319-4ef9-b453-c7364966d88a"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "20",
+                    "transition": "567cde3c-e520-4712-8b65-17b0f1dcc4d1"
+                },
+                {
+                    "conditionType": "Equals",
+                    "conditionValue": "20",
+                    "condition": "NoMatch",
+                    "transition": "fddea8f7-8ae5-47f1-84ff-7a930fd8df4b"
+                }
+            ],
+            "parameters": [],
+            "metadata": {
+                "position": {
+                    "x": 743,
+                    "y": 213
+                },
+                "conditionMetadata": [
+                    {
+                        "id": "ee312684-dec7-4378-8cce-f925db836c18",
+                        "percent": {
+                            "value": 1,
+                            "display": "1%"
+                        },
+                        "name": "",
+                        "value": "20"
+                    },
+                    {
+                        "id": "701e8d57-a69e-4485-b3fa-9762bf0d8371",
+                        "percent": {
+                            "value": 1,
+                            "display": "1%"
+                        },
+                        "name": "",
+                        "value": "20"
+                    },
+                    {
+                        "id": "87bd0a65-ac64-4373-9160-84ae7956b49c",
+                        "percent": {
+                            "value": 1,
+                            "display": "1%"
+                        },
+                        "name": "",
+                        "value": "20"
+                    },
+                    {
+                        "id": "5f929b5f-6f05-44ac-8941-b9ea7392a255",
+                        "percent": {
+                            "value": 1,
+                            "display": "1%"
+                        },
+                        "name": "",
+                        "value": "20"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1ed8ff63-a015-4192-8fc9-638d4787a1f7",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-481-4602"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 517,
+                    "y": 478
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "4ed0ab31-e3be-4c9f-9c90-90f8bbdb9c3b",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1571-601-1876"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 736,
+                    "y": 0
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "0b6be85f-c56c-4b14-8a2f-1bd348e1818e",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+1*557037468690"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 740,
+                    "y": 597
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "9581c8af-3f4d-4f65-a865-a4b8939512a2",
+            "type": "Disconnect",
+            "branches": [],
+            "parameters": [],
+            "metadata": {
+                "position": {
+                    "x": 517,
+                    "y": 638
+                }
+            }
+        },
+        {
+            "id": "8e907b1b-b6e6-4d5c-b496-30710edf894f",
+            "type": "GetUserInput",
+            "branches": [
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "1",
+                    "transition": "0c2a4f0f-6916-49ad-80e1-a838a561a731"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "2",
+                    "transition": "8dda3b84-fd7d-473d-8bf0-521eeb897e58"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "3",
+                    "transition": "f43dfcc0-fe05-4f02-a978-a88842d03d8b"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "4",
+                    "transition": "f354aeb2-a60e-4f03-bc3b-6ad8e978dbba"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "5",
+                    "transition": "1ed8ff63-a015-4192-8fc9-638d4787a1f7"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "6",
+                    "transition": "4ed0ab31-e3be-4c9f-9c90-90f8bbdb9c3b"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "0",
+                    "transition": "0b6be85f-c56c-4b14-8a2f-1bd348e1818e"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "#",
+                    "transition": "365908ed-39e2-44d1-afe8-c24df31c53a3"
+                },
+                {
+                    "condition": "Timeout",
+                    "transition": "0b6be85f-c56c-4b14-8a2f-1bd348e1818e"
+                },
+                {
+                    "condition": "NoMatch",
+                    "transition": "365908ed-39e2-44d1-afe8-c24df31c53a3"
+                },
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "Text",
+                    "value": "Thank you for calling doctor Koslow and associates. Is this a medical emergency? Please hang up, and dial nine one one. If you know your party's extension, please enter it now, or at any time during this message. If this is a physician, hospital, or calling from a referring physician's office, please press five. If you are a patient, we prefer you communicate with us via secure text message to get your questions answered quickly. If you are on your cellphone, please press six now to end the call and receive a text from us. If you are on the landline, or would like to continue with the call, please listen carefully to the following options. For scheduling or rescheduling an appointment, press one. For refills on medications or questions on a prescription, press two. For referrals or questions regarding an invoice you have received, press three to leave a message, and someone from our referrals department or billing office will return your call at our earliest convenience. For any other questions, press four, and someone from our front staff will be with you shortly. If you would like to leave a message for one of our providers or staff, please press zero or remain on the line, and your call will be transferred shortly. To hear these options again, press pound. Thank you for calling, and have a great day.",
+                    "namespace": null
+                },
+                {
+                    "name": "TextToSpeechType",
+                    "value": "text"
+                },
+                {
+                    "name": "Timeout",
+                    "value": "30"
+                },
+                {
+                    "name": "MaxDigits",
+                    "value": "1"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 236,
+                    "y": 15
+                },
+                "conditionMetadata": [
+                    {
+                        "id": "a3a81b6e-0e04-4df0-a3ad-b30a6a8b6221",
+                        "value": "1"
+                    },
+                    {
+                        "id": "5a822be6-4e82-47ea-a3e7-757747faa4b5",
+                        "value": "2"
+                    },
+                    {
+                        "id": "372b47de-1c8a-4e69-95f0-f4d381920087",
+                        "value": "3"
+                    },
+                    {
+                        "id": "615d480b-ed8a-40a6-a50b-0c7b09748a5b",
+                        "value": "4"
+                    },
+                    {
+                        "id": "d820d0a6-75ad-4d1b-845d-0e5e8c2fd1f2",
+                        "value": "5"
+                    },
+                    {
+                        "id": "8d24622a-bc21-479e-8b47-c178e6d924ae",
+                        "value": "6"
+                    },
+                    {
+                        "id": "8ffcf763-69ef-4cf2-b708-ac658b95a189",
+                        "value": "0"
+                    },
+                    {
+                        "id": "b43bcebc-22d7-430c-a34f-b27b9c111d9d",
+                        "value": "#"
+                    }
+                ],
+                "useDynamic": false,
+                "useLexBotDropdown": true,
+                "useDynamicLexBotArn": false,
+                "lexV2BotName": null
+            },
+            "target": "Digits"
+        },
+        {
+            "id": "365908ed-39e2-44d1-afe8-c24df31c53a3",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "9581c8af-3f4d-4f65-a865-a4b8939512a2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "ContactFlowId",
+                    "value": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/34e3afad-8405-4860-bdeb-fcf69f92e66f",
+                    "resourceName": "DoctorInHours"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 240,
+                    "y": 598
+                },
+                "useDynamic": false,
+                "ContactFlow": {
+                    "id": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/34e3afad-8405-4860-bdeb-fcf69f92e66f",
+                    "text": "DoctorInHours",
+                    "arn": null,
+                    "metricDetail": null,
+                    "resourceId": null
+                }
+            },
+            "target": "Flow"
+        }
+    ],
+    "version": "1",
+    "type": "contactFlow",
+    "start": "8e907b1b-b6e6-4d5c-b496-30710edf894f",
+    "metadata": {
+        "entryPointPosition": {
+            "x": 20,
+            "y": 20
+        },
+        "snapToGrid": false,
+        "name": "DoctorInHours",
+        "description": null,
+        "type": "contactFlow",
+        "status": "published",
+        "hash": "29cfc0133b2bfc042a5d74da39583525565bc0060fc9e7d6d04f655c8905f2bf"
+    }
+}

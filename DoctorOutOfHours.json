@@ -1,0 +1,286 @@
+{
+    "modules": [
+        {
+            "id": "f01a3fbf-edd3-4421-8f95-0aa70a096821",
+            "type": "Disconnect",
+            "branches": [],
+            "parameters": [],
+            "metadata": {
+                "position": {
+                    "x": 847,
+                    "y": 432
+                }
+            }
+        },
+        {
+            "id": "ddb8b210-a9e8-4290-ad7c-f291c86a7c60",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "f01a3fbf-edd3-4421-8f95-0aa70a096821"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "TimeLimit",
+                    "value": "30"
+                },
+                {
+                    "name": "BlindTransfer",
+                    "value": true
+                },
+                {
+                    "name": "PhoneNumber",
+                    "value": "+17035580876"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 584.5998160073597,
+                    "y": 346
+                },
+                "CountryCode": "us"
+            },
+            "target": "PhoneNumber"
+        },
+        {
+            "id": "6f3c8997-c732-4220-80f6-35c552b09c61",
+            "type": "Disconnect",
+            "branches": [],
+            "parameters": [],
+            "metadata": {
+                "position": {
+                    "x": 568,
+                    "y": 612
+                }
+            }
+        },
+        {
+            "id": "148cbfb4-1490-4f23-8e01-c7131bcddbb0",
+            "type": "Disconnect",
+            "branches": [],
+            "parameters": [],
+            "metadata": {
+                "position": {
+                    "x": 810.3499755859375,
+                    "y": 108.0999984741211
+                }
+            }
+        },
+        {
+            "id": "db41ae35-b0a2-4aa3-ad7e-f580179af5c1",
+            "type": "GetUserInput",
+            "branches": [
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "1",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "2",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "3",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "4",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "5",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "6",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "7",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "8",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "9",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "0",
+                    "transition": "ddb8b210-a9e8-4290-ad7c-f291c86a7c60"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "*",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Evaluate",
+                    "conditionType": "Equals",
+                    "conditionValue": "#",
+                    "transition": "0682bbea-6014-45d3-97bd-0987fe534400"
+                },
+                {
+                    "condition": "Timeout",
+                    "transition": "6f3c8997-c732-4220-80f6-35c552b09c61"
+                },
+                {
+                    "condition": "NoMatch",
+                    "transition": "6f3c8997-c732-4220-80f6-35c552b09c61"
+                },
+                {
+                    "condition": "Error",
+                    "transition": "6f3c8997-c732-4220-80f6-35c552b09c61"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "Text",
+                    "value": "Thank you for calling doctor Koslow and Associates. Our office is currently closed. Our phone lines are open from eight thirty to twelve, and one thirty to four, Monday through Friday. If you are experiencing a life threatening emergency, please hang up, and dial nine one one. The doctor is available for critical matters only. The answering service is not for prescription refills, referral requests, or appointment requests. No controlled medications will be prescribed after hours. If you need to contact the on-call doctor regarding an urgent concern, please press zero to be transferred to our answering service. We also provide an after hour nurse care's advice line through Privia that you can reach by calling eight seven seven, nine seven seven, four eight four two. If your call is concerning a non urgent manner, please call the office during normal business hours. Thank you.",
+                    "namespace": null
+                },
+                {
+                    "name": "TextToSpeechType",
+                    "value": "text"
+                },
+                {
+                    "name": "Timeout",
+                    "value": "30"
+                },
+                {
+                    "name": "MaxDigits",
+                    "value": "1"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 172,
+                    "y": 15
+                },
+                "conditionMetadata": [
+                    {
+                        "id": "8e14d7be-1aee-47ad-ae0c-48a6159c12f6",
+                        "value": "1"
+                    },
+                    {
+                        "id": "7befb62f-2485-43d2-88d3-5c9d44c1d9bb",
+                        "value": "2"
+                    },
+                    {
+                        "id": "ca13d0b2-251c-4631-82ca-0ede09e1e9e5",
+                        "value": "3"
+                    },
+                    {
+                        "id": "64074145-0364-45fc-a584-08ac19a9ea13",
+                        "value": "4"
+                    },
+                    {
+                        "id": "90d4b01f-8a4b-48ad-9ea4-2f2b6a968222",
+                        "value": "5"
+                    },
+                    {
+                        "id": "dc064b8a-ffb1-4060-923a-c54ea0196a61",
+                        "value": "6"
+                    },
+                    {
+                        "id": "d27e1f0c-3616-42f7-82bc-064916a0c57c",
+                        "value": "7"
+                    },
+                    {
+                        "id": "726f144c-3f73-4e6f-a5c0-284282f077af",
+                        "value": "8"
+                    },
+                    {
+                        "id": "2d1690b0-dce1-4959-86d8-cee920658384",
+                        "value": "9"
+                    },
+                    {
+                        "id": "6e43b0e0-11d6-4b0d-bf9c-19b9f69df5cf",
+                        "value": "0"
+                    },
+                    {
+                        "id": "7301af9c-aea8-4e3d-ab5a-17962e0a1ad1",
+                        "value": "*"
+                    },
+                    {
+                        "id": "9d3e876c-fa4f-48cb-a2d1-bb6f993f2393",
+                        "value": "#"
+                    }
+                ],
+                "useDynamic": false,
+                "useLexBotDropdown": true,
+                "useDynamicLexBotArn": false,
+                "lexV2BotName": null
+            },
+            "target": "Digits"
+        },
+        {
+            "id": "0682bbea-6014-45d3-97bd-0987fe534400",
+            "type": "Transfer",
+            "branches": [
+                {
+                    "condition": "Error",
+                    "transition": "148cbfb4-1490-4f23-8e01-c7131bcddbb0"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "ContactFlowId",
+                    "value": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/3e415a3a-e761-4408-aee4-cd6383d50c5d",
+                    "resourceName": "Doctor Out of Hours"
+                }
+            ],
+            "metadata": {
+                "position": {
+                    "x": 530,
+                    "y": 74
+                },
+                "useDynamic": false,
+                "ContactFlow": {
+                    "id": "arn:aws:connect:us-east-1:420279361566:instance/26786bfc-984a-41f1-95ec-db4fc23555df/contact-flow/3e415a3a-e761-4408-aee4-cd6383d50c5d",
+                    "text": "Doctor Out of Hours"
+                }
+            },
+            "target": "Flow"
+        }
+    ],
+    "version": "1",
+    "type": "contactFlow",
+    "start": "db41ae35-b0a2-4aa3-ad7e-f580179af5c1",
+    "metadata": {
+        "entryPointPosition": {
+            "x": 15,
+            "y": 20
+        },
+        "snapToGrid": false,
+        "name": "DoctorOutOfHours",
+        "description": null,
+        "type": "contactFlow",
+        "status": "published",
+        "hash": "273ab97f6aad14df3497ffd3b614850c4df5b6ae2a7b81a5fd6db5fc4b2773da"
+    }
+}

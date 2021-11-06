@@ -1,5 +1,5 @@
 ### Introduction
-    This repository represents an Amazon Connect call center for my mom's doctor office. Each
+    This repository represents an Amazon Connect call center for a local doctor's office. Each
     json file represents a contact flow in Amazon Connect. The DoctorOffice file is the main
     contact flow, and it redirects the call to the DoctorInHours contact flow, if the call 
     is happening while the office is open. If the office is closed, it redirects the call to 
